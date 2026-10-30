@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software in research, cite the version used and describe your analysis settings."
+type: software
+title: Pytro-NOVA
+version: 3.9.4
+date-released: 2026-10-30
+authors:
+  - family-names: Afruz
+    given-names: Ali
+    orcid: https://orcid.org/0000-0002-2969-8428
+license: MIT
+url: https://chemitro.ir

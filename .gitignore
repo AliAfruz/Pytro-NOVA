@@ -1,0 +1,45 @@
+# Local builds, packages and temporary files
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+*.deb
+*.AppImage
+*.o
+*.obj
+*.exe
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+
+# Confidential or proprietary original measurements and exported results
+*.nox
+*.nox.bak
+*_NOVA_TEXT/
+*_NOVA_TEXT_*/
+*_NOVA_PLOTS/
+*_NOVA_PLOTS_*/
+
+# Real-measurement-derived reference examples from the source archive:
+# Keep local for testing; explicitly review provenance before public release.
+examples/A110.001*
+
+# Developer-specific user paths and credentials
+*.log
+*.tmp
+secrets.json
+
+# Windows portable runtime and installer build outputs
+dist/
+build-mingw/
+*.zip
+*.7z
+*.pdb
