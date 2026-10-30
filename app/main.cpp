@@ -1416,7 +1416,7 @@ private:
 int main(int argc,char *argv[]) {
     QApplication app(argc,argv);
     QApplication::setApplicationName("Pytro-NOVA");
-    QApplication::setApplicationVersion("3.9.4");
+    QApplication::setApplicationVersion("3.9.5");
     QApplication::setOrganizationName("Independent scientific viewer");
     // Used by Windows release CI to validate Qt GUI startup and that the
     // portable interpreter and decoder are adjacent to the executable.
