@@ -18,6 +18,10 @@ NOVA installation or cloud service is required for the supported file layouts.
 > are not themselves precompiled Windows or Linux applications. GitHub Actions
 > builds downloadable `.deb`, Windows ZIP and Windows installer artifacts.
 
+## Quick downloads
+
+Download the ready-to-run Windows installer, portable Windows ZIP, or Ubuntu 24.04 `.deb` from [GitHub Releases](https://github.com/AliAfruz/Pytro-NOVA/releases/latest). The Windows ZIP must be fully extracted before running `PytroNOVA.exe`.
+
 ## Supported data and limitations
 
 - **CV:** measured potential/current signals and available CV columns.
@@ -91,10 +95,10 @@ finishes, download its two artifacts:
 
 For locally produced Windows release packages, read
 [`docs/WINDOWS_PACKAGING.md`](docs/WINDOWS_PACKAGING.md). The portable package
-includes `Pytro-Pytro-NOVA-to-TXT.cmd` to export measurement data from Command Prompt:
+includes `Pytro-NOVA-to-TXT.cmd` to export measurement data from Command Prompt:
 
 ```bat
-Pytro-Pytro-NOVA-to-TXT.cmd "C:\data\measurement.nox" --output "C:\data\exports"
+Pytro-NOVA-to-TXT.cmd "C:\data\measurement.nox" --output "C:\data\exports"
 ```
 
 **These binaries are made by the GitHub Windows runner**, not by a Linux
