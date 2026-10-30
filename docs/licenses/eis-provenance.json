@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/AliAfruz/EIS-studio",
+  "commit": "697fc2ff759cae2d94fd3418ccf794834c22164d",
+  "license": "MIT",
+  "copyright": "2026 Ali Afruz and Maryam Kaffash Jamshid",
+  "files": {
+    "models.py": "f86021c20d1f5939b7d14892b5c18bf2089571a4058ffe5b564cb8f0667533e5",
+    "fitting.py": "70e7a16172958fabc27a2b98dc02185e91d7c505bb7e09c52b8914a9158b8b12",
+    "diagnostics.py": "dd1a12ea7392a901b58aa5bec29292f11eb329dcfbe7d54d592cfa7d25671996"
+  }
+}
