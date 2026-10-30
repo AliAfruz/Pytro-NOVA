@@ -1,4 +1,4 @@
-PYTRO-NOVA 3.9.4 - WINDOWS x64
+PYTRO-NOVA 3.9.5 - WINDOWS x64
 ===================================
 
 PORTABLE EDITION
@@ -14,7 +14,7 @@ The converter also runs from Command Prompt:
 The output parent folder must exist. See manifest.json in the output for details.
 
 INSTALLER EDITION
-Run Pytro-NOVA-Setup-v3.9.4-Windows-x64.exe. The installer places the same
+Run Pytro-NOVA-Setup-v3.9.5-Windows-x64.exe. The installer places the same
 components under your user account and creates a Start Menu shortcut.
 
 SYSTEM REQUIREMENTS

@@ -1,5 +1,5 @@
 ; Per-user Windows 64-bit installer for the portable Pytro-NOVA distribution.
-#define AppVersion "3.9.4"
+#define AppVersion "3.9.5"
 #define PortableDir "..\..\dist\Pytro-NOVA-v" + AppVersion + "-Windows-x64"
 
 [Setup]
