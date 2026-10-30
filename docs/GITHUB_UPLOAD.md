@@ -9,7 +9,7 @@ cd /path/to/Pytro-NOVA
 git init -b main
 git add .
 git status --short
-git commit -m "Release Pytro-NOVA 3.9.4"
+git commit -m "Release Pytro-NOVA 3.9.5"
 git remote add origin YOUR_REPOSITORY_URL
 git push -u origin main
 ```

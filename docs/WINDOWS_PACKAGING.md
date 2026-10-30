@@ -14,7 +14,7 @@ read-only NOVA decoding, scientific analysis and TXT export. Packaging only
    `Pytro-NOVA-Windows-Portable` and `Pytro-NOVA-Windows-Installer`.
 4. The portable artifact contains a ZIP. Extract it completely on a 64-bit
    Windows 10/11 computer and run `PytroNOVA.exe`.
-5. The installer artifact contains `Pytro-NOVA-Setup-v3.9.4-Windows-x64.exe`.
+5. The installer artifact contains `Pytro-NOVA-Setup-v3.9.5-Windows-x64.exe`.
    Run it to install under the current user's AppData/Programs folder.
 
 On a published GitHub Release, the workflow also attempts to attach both
@@ -40,7 +40,7 @@ build-and-launch script; it does **not** produce portable distributions.
 The ZIP contains:
 
 ```text
-Pytro-NOVA-v3.9.4-Windows-x64/
+Pytro-NOVA-v3.9.5-Windows-x64/
 ├── PytroNOVA.exe                 C++/Qt user interface
 ├── Qt6*.dll, platforms/        Bundled Qt runtime and required plugins
 ├── python/                    Official isolated CPython 3.12 executable,

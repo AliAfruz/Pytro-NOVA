@@ -1,4 +1,4 @@
-# Pytro-NOVA 3.9.4 validation
+# Pytro-NOVA 3.9.5 validation
 
 Checked on 30 October 2026 on Ubuntu 26.10 with GCC 15.3 and Qt 6.11.2.
 
