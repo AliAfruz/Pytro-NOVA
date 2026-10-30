@@ -1,0 +1,13 @@
+{
+  "originalArchive": "NOVA_Lab_v3.9.3_Linux_Windows_GitHub_Source.zip",
+  "newRegressionTests": [
+    "test_nested_primitive_arrays",
+    "test_null_run_cannot_overflow_array",
+    "test_null_runs_must_be_positive",
+    "test_non_header_record_is_a_decoder_error",
+    "test_missing_root_object_is_rejected"
+  ],
+  "originalFailures": 4,
+  "originalErrors": 3,
+  "patchedSuite": "All 68 tests pass"
+}
