@@ -1,0 +1,21 @@
+PYTRO-NOVA - THIRD-PARTY COMPONENT NOTICE
+
+The Windows distribution dynamically links Qt 6 libraries (including Qt
+Widgets and the Windows platform plugin), and bundles the official CPython
+Windows embeddable distribution and NumPy/SciPy wheels.
+
+This is not a substitute for the corresponding third-party license files.
+When redistributing, verify the exact versions, module licenses and obligations
+of the libraries selected by the build. In particular, Qt LGPL requirements
+may include notices, corresponding license material, and the ability for end
+users to replace the dynamically linked libraries. Python, NumPy and SciPy have
+their own respective open-source licenses and notices.
+
+  Qt:     https://www.qt.io/licensing
+  Python: https://docs.python.org/3/license.html
+  NumPy:  https://numpy.org/doc/stable/license.html
+  SciPy:  https://scipy.org/
+
+The original user-supplied project LICENSE is included unchanged. Ownership,
+licensing and compatibility of all original project code remain for its
+copyright holders to verify before public distribution.
