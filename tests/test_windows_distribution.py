@@ -38,10 +38,10 @@ class WindowsDistributionContracts(unittest.TestCase):
         cmake = (ROOT / 'CMakeLists.txt').read_text(encoding='utf-8')
         workflow = (ROOT / '.github/workflows/windows.yml').read_text(encoding='utf-8')
         installer = (ROOT / 'packaging/windows/PytroNOVA.iss').read_text(encoding='utf-8')
-        self.assertIn('VERSION 3.9.4', cmake)
-        self.assertIn('Pytro-NOVA-v3.9.4-Windows-x64.zip', workflow)
-        self.assertIn('Pytro-NOVA-Setup-v3.9.4-Windows-x64.exe', workflow)
-        self.assertIn('#define AppVersion "3.9.4"', installer)
+        self.assertIn('VERSION 3.9.5', cmake)
+        self.assertIn('Pytro-NOVA-v3.9.5-Windows-x64.zip', workflow)
+        self.assertIn('Pytro-NOVA-Setup-v3.9.5-Windows-x64.exe', workflow)
+        self.assertIn('#define AppVersion "3.9.5"', installer)
 
     def test_windows_workflow_has_both_artifacts(self):
         workflow = (ROOT / '.github/workflows/windows.yml').read_text(encoding='utf-8')
