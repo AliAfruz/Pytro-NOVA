@@ -2,7 +2,8 @@
 
 Checked on 30 October 2026 on Ubuntu 26.10 with GCC 15.3 and Qt 6.11.2.
 
-- **68 regression tests passed, zero skips** with Python 3.11 and Python 3.14.
+- Original verification: **68 regression tests passed, zero skips** with Python 3.11 and Python 3.14.
+- Before GitHub publication, all **69 tests passed, zero skips** on Python 3.11, including a new Windows packaging source-path regression.
 - Existing CV/EIS, GCD and self-discharge `.nox` samples were supplied privately
   through the documented environment variables. They are absent from this repo.
 - Synthetic fixtures cover all supported CSV techniques and known circuit cases.
