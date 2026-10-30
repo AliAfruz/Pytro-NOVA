@@ -1,5 +1,11 @@
 # Pytro-NOVA changes
 
+## 3.9.5 — 30 October 2026
+
+- Restore Python 3.12 after Qt's installer changes the runner PATH, and pass the selected interpreter explicitly to Windows wheel staging.
+- Initialize the MSVC environment so Qt deployment includes the Visual C++ runtime.
+- Publish native Windows EXE/ZIP and Ubuntu Debian packages through release builds.
+
 ## 3.9.4 — 30 October 2026
 
 - Renamed the application, executable, Linux package, desktop entry, Windows

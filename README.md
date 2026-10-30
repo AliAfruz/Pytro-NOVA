@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/assets/pytro-nova-knight.png" alt="Original knight-and-NOVA-dragon artwork supplied by Ali Afruz" width="960"></p>
 
-**Version 3.9.4 · Linux and Windows · Offline scientific software**
+**Version 3.9.5 · Linux and Windows · Offline scientific software**
 
 **Offline, native Qt electrochemistry viewer for Linux and Windows.**
 
@@ -12,7 +12,7 @@ NOVA `.nox` files and supports CSV/TSV imports for specified techniques.
 **This is an independent tool, not Metrohm software**; no instrument control,
 NOVA installation or cloud service is required for the supported file layouts.
 
-> Version 3.9.4 introduces the Pytro-NOVA name and decoder/packaging fixes,
+> Version 3.9.5 introduces the Pytro-NOVA name and decoder/packaging fixes,
 > retaining automated Windows portable `.exe` and installer builds
 > while retaining Linux support and the clean TXT converter. Source archives
 > are not themselves precompiled Windows or Linux applications. GitHub Actions

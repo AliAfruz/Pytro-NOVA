@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(PytroNOVA VERSION 3.9.4 LANGUAGES CXX)
+project(PytroNOVA VERSION 3.9.5 LANGUAGES CXX)
 
 include(GNUInstallDirs)
 set(CMAKE_CXX_STANDARD 17)

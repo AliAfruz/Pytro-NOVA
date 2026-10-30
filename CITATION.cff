@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software in research, cite the version used and describe your analysis settings."
 type: software
 title: Pytro-NOVA
-version: 3.9.4
+version: 3.9.5
 date-released: 2026-10-30
 authors:
   - family-names: Afruz
