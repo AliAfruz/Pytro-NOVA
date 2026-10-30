@@ -3,7 +3,8 @@
 param(
     [string]$BuildDir = 'build/windows',
     [string]$QtDir = $env:QT_ROOT_DIR,
-    [string]$PythonVersion = '3.12.10'
+    [string]$PythonVersion = '3.12.10',
+    [string]$HostPython = 'python'
 )
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
@@ -21,7 +22,7 @@ if (-not (Test-Path $builtExe)) {
 }
 if (-not (Test-Path $builtExe)) { throw "Build PytroNOVA.exe first: $BuildDir" }
 
-$version = '3.9.4'
+$version = '3.9.5'
 $dist = Join-Path $root 'dist'
 $portable = Join-Path $dist "Pytro-NOVA-v$version-Windows-x64"
 New-Item -ItemType Directory -Force -Path $dist | Out-Null
@@ -75,11 +76,11 @@ Write-Host '[4/5] Including NumPy and SciPy for Advanced Lab...' -ForegroundColo
 $site = Join-Path $pyRoot 'Lib/site-packages'
 New-Item -ItemType Directory -Force -Path $site | Out-Null
 # The runner's Python MUST match the embedded interpreter minor version.
-$hostVersion = & python -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")'
+$hostVersion = & $HostPython -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")'
 if ($LASTEXITCODE -ne 0 -or $hostVersion -ne '3.12') {
     throw "Packaging requires host Python 3.12, found '$hostVersion'."
 }
-& python -m pip install --disable-pip-version-check --no-compile --only-binary=:all: `
+& $HostPython -m pip install --disable-pip-version-check --no-compile --only-binary=:all: `
     --target $site -r (Join-Path $root 'backend/requirements-advanced.txt')
 if ($LASTEXITCODE -ne 0) { throw 'Wheel installation into the portable runtime failed.' }
 
