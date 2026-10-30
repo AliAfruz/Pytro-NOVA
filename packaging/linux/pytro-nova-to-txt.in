@@ -1,0 +1,5 @@
+#!/bin/sh
+# Converted at configure-time. Quoting keeps user-supplied paths safe.
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+PYTHON=${PYTRO_NOVA_PYTHON:-${NOVA_PYTHON:-python3}}
+exec "$PYTHON" "$SCRIPT_DIR/../@CMAKE_INSTALL_DATADIR@/pytro-nova/tools/nova_to_txt.py" "$@"

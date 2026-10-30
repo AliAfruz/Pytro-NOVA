@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Pytro-NOVA
+GenericName=Electrochemical Data Explorer
+Comment=Analyze NOVA data and export clean text measurements
+Exec=PytroNOVA %f
+Icon=pytro-nova
+Terminal=false
+Categories=Science;Education;
+StartupNotify=true
